@@ -9,7 +9,7 @@ int *intersect(const int a[], const int b[]) {
 
     size_t cSize = (aSize > bSize) ? aSize : bSize;
 
-    int *c = (int*) malloc (sizeof(int) * (cSize + 1));
+    int *c = (int *) malloc(sizeof(int) * (cSize + 1));
 
     if (c == NULL) {
         printf("Memory allocation failed!\n");
